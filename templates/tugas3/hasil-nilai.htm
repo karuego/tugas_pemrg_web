@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Program Nilai Mahasiswa</title>
+  <link rel="stylesheet" href="/static/tanda-pengenal.css">
+  <link rel="stylesheet" href="/static/hasil-nilai.css">
+</head>
+<body>
+<div class="container">
+  <div class="info">
+    <h2>Hasil Perhitungan:</h2>
+    <table cellspacing="10">
+      <tr>
+        <td>Nama</td>
+        <td> : </td>
+        <td>{{res['nama']}}</td>
+      </tr>
+      <tr>
+        <td>NIM</td>
+        <td> : </td>
+        <td>{{res['nim']}}</td>
+      </tr>
+      <tr>
+        <td>Nilai Angka</td>
+        <td> : </td>
+        <td>{{res['nilai']}}</td>
+      </tr>
+      <tr>
+        <td>Nilai Huruf</td>
+        <td> : </td>
+        <td>{{res['huruf']}}</td>
+      </tr>
+      <tr>
+        <td>Keterangan</td>
+        <td> : </td>
+        <td>{{res['keterangan']}}</td>
+      </tr>
+    </table>
+  </div>
+</div>
+</body>
+</html>

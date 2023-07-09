@@ -1,0 +1,66 @@
+.container {
+  box-sizing: border-box;
+  max-width: 600px;
+  margin: 30px auto;
+  border: 5px solid grey;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#output {
+  width: 100%;
+  margin-bottom: 10px;
+  border-style: solid;
+  border-width: 2px;
+  text-align: right;
+  font-size: 35px;
+}
+
+#tombol {
+  font-size: 30px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#angka {
+  color: white;
+  font-weight: bold;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+#angka span {
+  background-color: royalblue;
+  padding: 32px;
+  margin: 5px;
+  box-sizing: border-box;
+}
+
+#angka span.nil {
+  background-color: transparent;
+}
+
+#operasi {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+#operasi span {
+  background-color: #F0EFEF;
+  padding: 34px;
+  margin: 5px;
+  border: 1px solid grey;
+}

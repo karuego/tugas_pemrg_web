@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Program Nilai Mahasiswa</title>
+  <link rel="stylesheet" href="/static/tanda-pengenal.css">
+  <link rel="stylesheet" href="/static/perhitungan-nilai.css">
+  <script src="/static/perhitungan-nilai.js" defer></script>
+</head>
+<body>
+  <h1>Program Nilai Mahasiswa</h1>
+  <br><br>
+<div class="container">
+  <form id="nilaiForm" action="/validasi" method="post">
+    <div>
+      <label for="nama">Nama:</label>
+      <input type="text" id="nama" name="nama" pattern="[A-Za-z]+" required>
+    </div>
+    <div>
+      <label for="nim">NIM:</label>
+    <input type="text" id="nim" name="nim" pattern="[0-9]{8}" required>
+    </div>
+    <div>
+      <label for="nilai">Nilai:</label>
+      <input type="number" id="nilai" name="nilai" min="0" max="100" required>
+    </div>
+    <br>
+    <button type="submit">Hasil</button>
+    <button type="reset">Reset</button>
+  </form>
+</div>
+</body>
+</html>
